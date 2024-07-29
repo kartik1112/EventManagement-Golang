@@ -1,0 +1,10 @@
+POST http://localhost:8080/events
+content-type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RAbWFpbC5jb20iLCJleHAiOjE3MjIyODIyNzEsInVzZXJJZCI6Mn0.dlUj8-N9U5rSKHY6XPPnYETrnYG23toSLKVXhNuXqcg
+
+{
+  "name": "Test event 9",
+  "description": "Another test dfevent",
+  "location": "A test location",
+  "dateTime": "2025-01-01T15:30:00.000Z"
+}
